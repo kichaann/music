@@ -1,0 +1,273 @@
+header{
+    background: #000;
+}
+.logo img{
+    height: 70px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
+    background: #000;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+header li a,header li{
+    padding: 10px;
+    color: #eee4e1;
+    text-decoration: none;
+}
+
+main{   
+    padding: 20px;
+    margin: 0 auto;
+    color: #eee4e1;
+}
+.new {
+    display: flex;
+    gap: 20px;
+}
+.card{
+    border: solid 1px #eee4e1;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    transition: .3s;
+    width: 300px;
+    height: 200px;
+    
+}
+
+.card img{
+    margin-right: 15px;
+    border-radius: 15px;
+    width: 120px;
+    height: 120px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px #e6beae;
+    cursor: pointer;
+}
+
+aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    overflow: hidden;
+    background: blue;
+    transition: .3s
+}
+aside:hover {
+    width:150px;
+}
+.sotrudniki {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+.sotrudnik {
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    transition: .3s;
+}
+ .sotrudnik img{
+     width: 200px;
+     border-radius: 15px;
+ }
+.sotrudnik:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px #000;
+    cursor: pointer;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+}
+
+.poisk img {
+ height: 30px;
+ width: 30px;
+ padding: 5px;
+}
+.int {
+    display: flex;
+    gap: 15px;
+}
+.int img {
+    width: 430px;
+    height: 290px;
+
+}
+.sin {
+    border: solid 1px #eee4e1;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: .3s;
+    width: 470px;
+    height: 425px;
+}
+.sin:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px #e6beae;
+    cursor: pointer;
+}
+.h {
+    background: #e6beae;
+    width: 225px;
+    height: 225px;
+    border-radius: 15px;
+}
+.h img {
+    height: 180px;
+    width: 180px;
+    padding: 18px;
+}
+
+.contacs {
+    border: solid 1px #eee4e1;
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    transition: .3s;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+}
+
+.contacs:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px #e6beae;
+    cursor: pointer;
+}
+.vibe {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.bibleo {
+    border: solid 1px #eee4e1;
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    transition: .3s;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+}
+.bibleo:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px #e6beae;
+    cursor: pointer;
+}
+.bibleoteka {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.xa {
+    border: solid 1px #eee4e1;
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    transition: .3s;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+.xa:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px #e6beae;
+    cursor: pointer;
+}
+.xa img{
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+}
+.x li {
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.likey {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.topcard img {
+    width: 70px;
+    height: 70px;
+}
+.topcard {
+    display: flex;
+    align-items: center;
+    border: solid 1px #eee4e1;
+    border-radius: 15px;
+    padding: 15px;
+    transition: .3s;
+    width: 430px;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.topcard:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px #e6beae;
+    cursor: pointer;  
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1921px) { 
+    header{
+        justify-content: center;
+    }
+ }
+ @media (max-width: 910px) { 
+    main{
+        width: 95%;
+    }
+ }
+
+
