@@ -251,8 +251,34 @@ section{
     box-shadow: 0px 0px 9px 0px #e6beae;
     cursor: pointer;  
 }
-
-
+.allxit {
+    display: flex;
+    align-items: center;
+    border: solid 1px #eee4e1;
+    border-radius: 15px;
+    padding: 15px;
+    transition: .3s; 
+    flex-direction: row;
+    justify-content: space-around;
+    width: 330px;
+    height: 330px;
+    flex-direction: column;
+    justify-content: space-around
+}
+.allxit:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 9px 0px #e6beae;
+    cursor: pointer;  
+}
+.allxit img {
+    width: 220px;
+    height: 220px;
+}
+.xit {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
 
 
